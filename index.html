@@ -1,11 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feliz Dia dos Namorados</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    
+  <div id="entrada" class="entrada-animacao">
+<div class="coracoes-container">
+  <div class="coracao"></div>
+  <div class="coracao"></div>
+  <div class="coracao"></div>
+  <div class="coracao"></div>
+  <div class="coracao"></div>
+</div>
+
+  <button onclick="entrarSite()">Entrar</button>
+    <h1>“Toda história de amor tem um começo...”</h1>
+  </div>
+
+  <div class="conteudo" id="conteudo" style="display:none;">
+    <header class="topo-romantico">
+    <h1>Feliz Dia dos Namorados 💖</h1>
+</header>
+
+    <!-- Música -->
+    <div class="musica">
+      <p>Essa música é a nossa cara ❤️</p>
+      <audio controls>
+        <source src="audio.mp3" type="audio/mpeg" />
+        Seu navegador não suporta áudio.
+      </audio>
+    </div>
+
+    <!-- Corações no fundo -->
+    <canvas id="coracoes"></canvas>
+
+    <!-- Linha do tempo -->
+    <section class="linha-do-tempo">
+      <h2>Nossa História</h2>
+      <div class="evento">
+        <img src="sua-imagem1.jpg" alt="Foto 1" />
+        <p>Nosso primeiro encontro... ❤️</p>
+      </div>
+      <div class="evento">
+        <img src="sua-imagem2.jpg" alt="Foto 2" />
+        <p>O dia que percebi que te amava...</p>
+      </div>
+      <!-- Adicione mais blocos como esse -->
+    </section>
+
+    <!-- Quiz -->
+    <section class="quiz">
+      <h2>Quiz do Amor</h2>
+      <div class="pergunta">
+        <p>Qual foi nosso primeiro filme juntos?</p>
+        <button onclick="responder(this, true)">A Culpa é das Estrelas</button>
+        <button onclick="responder(this, false)">Titanic</button>
+        <button onclick="responder(this, false)">Velozes e Furiosos</button>
+      </div>
+
+      <div class="pergunta">
+        <p>Qual é minha comida favorita?</p>
+        <button onclick="responder(this, false)">Pizza</button>
+        <button onclick="responder(this, true)">Lasanha</button>
+        <button onclick="responder(this, false)">Sushi</button>
+      </div>
+      <!-- Adicione mais perguntas aqui -->
+    </section>
+
+    <!-- Botão Surpresa -->
+    <section class="surpresa">
+      <button onclick="mostrarSurpresa()">Clique aqui 💌</button>
+      <div id="mensagem-surpresa" style="display: none;">
+        <p>Você é o amor da minha vida. Nunca esqueça disso.</p>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
