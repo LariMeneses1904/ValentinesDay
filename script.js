@@ -77,4 +77,10 @@ function entrarSite() {
 }
 
 
+function mostrarSurpresa() {
+  var mensagem = document.getElementById("mensagem-surpresa");
+  mensagem.style.display = "block";
+}
+
+
 

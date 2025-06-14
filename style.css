@@ -40,12 +40,13 @@ body {
 
 .linha-do-tempo {
   padding: 30px;
-  background-color: #fff0f5;
+  
 }
 
 .linha-do-tempo h2 {
   text-align: center;
   margin-bottom: 20px;
+  font-size: 50px;
 }
 
 .evento {
@@ -58,10 +59,14 @@ body {
   height: auto;
   border-radius: 15px;
 }
-
+.evento p {
+  font-size: 30px;
+  color: black;
+}
 .quiz {
   background: #fce4ec;
   padding: 30px;
+  font-size: 35px;
 }
 
 .quiz h2 {
@@ -71,12 +76,23 @@ body {
 .pergunta {
   margin-bottom: 25px;
   text-align: center;
+  font-size: 30px;
+  margin-top: 40vh;
+  background-color:#dfbcbc ;
+  height: 40vh;
+  padding: 5%;
 }
 
 .pergunta button {
   margin: 5px;
   padding: 10px 15px;
   cursor: pointer;
+  text-decoration: none;
+  border: none;
+  background-color: #ca6868;
+  margin-top: 5vh;
+  font-size: 15px;
+  height: 40px;
 }
 
 .surpresa {
@@ -89,6 +105,13 @@ body {
   padding: 12px 20px;
   font-size: 18px;
   cursor: pointer;
+}
+
+#mensagem-surpresa {
+  display: none;
+  margin-top: 20px;
+  font-size: 30px;
+  color: #d63384;
 }
 
 .conteudo .topo-romantico {
@@ -106,7 +129,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: #fff0f5;
+  background: #e6a4a4;
   position: fixed;
   width: 100%;
   top: 0;
@@ -114,11 +137,26 @@ body {
   z-index: 10;
 }
 
+.entrada-animacao button {
+  height: 100px;
+  width: 400px;
+  font-size: 50px;
+  background: #d31414;
+  border: none;
+  color: #dfbcbc;
+  border-radius: 10px;
+}
+
+.entrada-animacao h1 {
+  color: #d31414;
+  
+}
+
 .coracoes-container {
   display: flex;
   gap: 10px;
   margin-bottom: 20px;
-  animation: pulse 1s ease-in-out infinite;
+  animation: pulse 2s ease-in-out infinite;
 }
 
 .coracao {

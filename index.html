@@ -20,12 +20,12 @@
 </div>
 
   <button onclick="entrarSite()">Entrar</button>
-    <h1>“Toda história de amor tem um começo...”</h1>
+    <h1>“Eu te amo... Fiz isso com muito carinho, espero que goste!”</h1>
   </div>
 
   <div class="conteudo" id="conteudo" style="display:none;">
     <header class="topo-romantico">
-    <h1>Feliz Dia dos Namorados 💖</h1>
+    <h1>Feliz Dia dos Namorados!!!</h1>
 </header>
 
     <!-- Música -->
@@ -44,32 +44,128 @@
     <section class="linha-do-tempo">
       <h2>Nossa História</h2>
       <div class="evento">
-        <img src="sua-imagem1.jpg" alt="Foto 1" />
-        <p>Nosso primeiro encontro... ❤️</p>
+        <img src="./src/img/foto.jpg" alt="Foto 1" width="300px"/>
+        <p>Nossa primeira foto... Lembra?❤️</p>
       </div>
       <div class="evento">
-        <img src="sua-imagem2.jpg" alt="Foto 2" />
-        <p>O dia que percebi que te amava...</p>
+        <img src="./src/img/organica.png" alt="Foto 2" width="300px"/>
+        <p>Nosso primeiro encontro oficial...</p>
       </div>
+
+      <div class="evento">
+        <img src="./src/img/viagem.jpg" alt="Foto 2" width="300px"/>
+        <p>Nossa primeira viagem... o dia que percebi que te amava...</p>
+      </div>
+
+      <div class="evento">
+        <img src="./src/img/bike.jpg" alt="Foto 2" width="300px"/>
+        <p>Nosso primeiro passeio de bike...</p>
+      </div>
+
       <!-- Adicione mais blocos como esse -->
     </section>
 
     <!-- Quiz -->
     <section class="quiz">
-      <h2>Quiz do Amor</h2>
+      <h2>Quiz. Você me conhece mesmo?</h2>
       <div class="pergunta">
-        <p>Qual foi nosso primeiro filme juntos?</p>
-        <button onclick="responder(this, true)">A Culpa é das Estrelas</button>
-        <button onclick="responder(this, false)">Titanic</button>
-        <button onclick="responder(this, false)">Velozes e Furiosos</button>
+        <p>Qual minha cor favorita?</p>
+        <button onclick="responder(this, false)">Amarelo</button>
+        <button onclick="responder(this, true)">Rosa</button>
+        <button onclick="responder(this, false)">Vermelho</button>
       </div>
 
       <div class="pergunta">
-        <p>Qual é minha comida favorita?</p>
-        <button onclick="responder(this, false)">Pizza</button>
-        <button onclick="responder(this, true)">Lasanha</button>
-        <button onclick="responder(this, false)">Sushi</button>
+        <p>Qual é minha fruta favorita?</p>
+        <button onclick="responder(this, false)">Morango</button>
+        <button onclick="responder(this, true)">Abacaxi</button>
+        <button onclick="responder(this, false)">Melão</button>
       </div>
+
+      <div class="pergunta">
+        <p>Qual é minha comida anti-fitness favorita?</p>
+        <button onclick="responder(this, true)">Hambúrguer</button>
+        <button onclick="responder(this, false)">Lasanha</button>
+        <button onclick="responder(this, false)">Sushi</button>
+        <button onclick="responder(this, false)">Pizza</button>
+      </div>
+
+      <div class="pergunta">
+        <p>Qual é meu signo?</p>
+        <button onclick="responder(this, false)">Escorpião</button>
+        <button onclick="responder(this, false)">Sargitário</button>
+        <button onclick="responder(this, false)">Câncer</button>
+        <button onclick="responder(this, false)">Leão</button>
+        <button onclick="responder(this, true)">Aries</button>
+      </div>
+
+      <div class="pergunta">
+        <p>Quando nasci?</p>
+        <button onclick="responder(this, false)">18 de Março de 2008</button>
+        <button onclick="responder(this, true)">19 de Abril de 2009</button>
+        <button onclick="responder(this, false)">18 de Abril de 2009</button>
+      </div>
+
+      <div class="pergunta">
+      <p>Que horas nasci?</p>
+        <button onclick="responder(this, true)">Por volta das 5 da manhã</button>
+        <button onclick="responder(this, false)">Se aproximando das 22:22 </button>
+        <button onclick="responder(this, false)">Por volta das 5 da tarde</button>
+      </div>
+
+      <div class="pergunta">
+        <p>Qual é meu esporte favorito para torcer?</p>
+        <button onclick="responder(this, false)">Futebol</button>
+        <button onclick="responder(this, true)">Vôlei</button>
+        <button onclick="responder(this, false)">Basquete</button>
+      </div>
+
+      <div class="pergunta">
+        <p>Entre essas, qual minha série favorita (gosto muito das 3)?</p>
+        <button onclick="responder(this, false)">Anne With an E</button>
+        <button onclick="responder(this, false)">Stranger Things</button>
+        <button onclick="responder(this, true)">The Walking Dead</button>
+      </div>
+
+      <div class="pergunta">
+        <p>Prefiro doce ou salgado?</p>
+        <button onclick="responder(this, false)">Doce</button>
+        <button onclick="responder(this, false)">Salgado</button>
+        <button onclick="responder(this, true)">Depende</button>
+        <button onclick="responder(this, false)">Nenhum</button>
+      </div>
+
+      <div class="pergunta">
+        <p>Prefiro Café ou Chá?</p>
+        <button onclick="responder(this, false)">Chá</button>
+        <button onclick="responder(this, true)">Café</button>
+        <button onclick="responder(this, false)">Depende</button>
+        <button onclick="responder(this, false)">Ambos</button>
+      </div>
+
+      <div class="pergunta">
+        <p>Se eu sumisse por um dia, onde eu provavelmente estaria?</p>
+        <button onclick="responder(this, false)">No mato</button>
+        <button onclick="responder(this, false)">Isolada em um quarto</button>
+        <button onclick="responder(this, true)">Na casa do meu namorado</button>
+        <button onclick="responder(this, false)">Na praia, refletindo</button>
+      </div>
+
+       <div class="pergunta">
+        <p>Se eu não estivesse estudando, o que eu estaria fazendo?</p>
+        <button onclick="responder(this, true)">Empreendendo</button>
+        <button onclick="responder(this, false)">Viajando</button>
+        <button onclick="responder(this, false)">Dormindo</button>
+        <button onclick="responder(this, false)">Trabalhando</button>
+      </div>
+      
+      <div class="pergunta">
+        <p>Se eu pudesse ter qualquer habilidade do mundo, qual seria?</p>
+        <button onclick="responder(this, false)">Ler Mentes</button>
+        <button onclick="responder(this, false)">Ser invisivel</button>
+        <button onclick="responder(this, true)">Teleportar</button>
+        <button onclick="responder(this, false)">Curar traumas</button>
+      </div> 
       <!-- Adicione mais perguntas aqui -->
     </section>
 
@@ -77,7 +173,7 @@
     <section class="surpresa">
       <button onclick="mostrarSurpresa()">Clique aqui 💌</button>
       <div id="mensagem-surpresa" style="display: none;">
-        <p>Você é o amor da minha vida. Nunca esqueça disso.</p>
+        <p>Você é o amor da minha vida. Nunca esqueça disso. Sou grata por te ter em minha vida todos os dias você é meu porto seguro, cada dia que passa me sinto mais feliz por estar com você, obrigada!</p>
       </div>
     </section>
   </div>
